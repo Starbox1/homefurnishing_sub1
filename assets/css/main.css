@@ -171,7 +171,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 2em 0;  font-weight: 500; color: #000000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -187,8 +187,11 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.75em;
-	}
+		font-size: 2.75em;  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		background: #000000
+		color: transparent;
+		-webkit-background-clip: text;};
+	
 
 		h1.major {
 			margin: 0 0 1.3em 0;
@@ -215,7 +218,7 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.75em; 
 	}
 
 	h3 {
@@ -1850,6 +1853,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		font-style: italic;
 	}
 
 		input[type="submit"]:after,
@@ -3049,7 +3053,7 @@ input, select, textarea {
 			justify-content: center;
 			width: 50em;
 			-ms-flex: 1;
-			background-color: #575757;
+			background-color: #1c4b8f;
 		}
 
 			.spotlights > section > .content > .inner {
@@ -3210,12 +3214,14 @@ input, select, textarea {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
 			width: 75em;
+			
 		}
 
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
 					padding: 4em 4em 2em 4em ;
+					
 				}
 
 			}
@@ -3319,6 +3325,7 @@ input, select, textarea {
 			-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 			transition: opacity 1s ease, transform 1s ease;
 			opacity: 1.0;
+			
 		}
 
 		.wrapper.fade-up.inactive > .inner,
@@ -3525,7 +3532,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312c2c;
+		background: #117ad1;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3749,6 +3756,7 @@ input, select, textarea {
 			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
+			font-style: italic;
 		}
 
 			#sidebar nav a:before, #sidebar nav a:after {
@@ -3762,14 +3770,14 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #000000;
 			}
 
 			#sidebar nav a:after {
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #ffffff, #575757);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3782,7 +3790,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: #ffffff; font-style: italic;
 			}
 
 				#sidebar nav a.active:after {
@@ -3882,7 +3890,7 @@ input, select, textarea {
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 1.25em; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3945,3 +3953,62 @@ input, select, textarea {
 	}
 }
 
+.p0{text-align: center; font-weight: 900; font-family: Arial, Helvetica, sans-serif;  font-style: italic;  letter-spacing: 50px;   background: linear-gradient(to right top, #f7eef3c4, #311815);
+	color: transparent;
+	-webkit-background-clip: text;}
+
+
+	.inner1{-moz-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+		transition: opacity 1s ease, transform 1s ease;
+		opacity: 1.0;
+		background-color: #ffffff;
+		padding: 4em 4em 2em 4em ;}
+
+		.inner2{
+			padding: 5em 5em 3em 5em ;
+			max-width: 100%;
+			width: 75em;
+			background-color: #0193a9;
+		}
+
+		.best1{color: #117ad1;}
+		.best2{color: #053984;}
+		.best3{color: #0193a9;}
+
+	
+	
+		.button1{-moz-appearance: none;
+			-webkit-appearance: none;
+			-ms-appearance: none;
+			appearance: none;
+			-moz-transition: border-color 0.2s ease;
+			-webkit-transition: border-color 0.2s ease;
+			-ms-transition: border-color 0.2s ease;
+			transition: border-color 0.2s ease;
+			background-color: transparent;
+			border: solid 1px !important;
+			border-color: #ffffff !important;
+			border-radius: 3em;
+			color: #ffffff !important;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 0.6em;
+			font-weight: bold;
+			height: calc(4.75em + 2px);
+			letter-spacing: 0.25em;
+			line-height: 4.75em;
+			outline: 0;
+			padding: 0 3.75em;
+			position: relative;
+			text-align: center;
+			text-decoration: none;
+			text-transform: uppercase;
+			white-space: nowrap;
+			font-style: italic;}
+		
