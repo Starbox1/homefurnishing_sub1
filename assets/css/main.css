@@ -171,7 +171,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;  font-weight: 500; color: #000000;
+		margin: 0 0 2em 0;  font-weight: 500; color: #ffffff;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3263,7 +3263,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #0193a9;
 		}
 
 		.wrapper.style3-alt {
@@ -4011,4 +4011,16 @@ input, select, textarea {
 			text-transform: uppercase;
 			white-space: nowrap;
 			font-style: italic;}
+
+			.hoon1{float: right; list-style:none}
+			.hoon2{font-size: 1.1em;font-weight: bold;}
+			.hoon3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #666666;}
+			.hoon4{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #666666;}
+			.contact1{border-left: 1px solid #000000;}
+			.hoon2_1{font-size: 1.1em;font-weight: bold; margin-top: 30px;}
+		
+			.contact1_1{color: #666666;}
+			.contact1_2{color: #666666;}
+			.contact1_3{color: #666666;}
+
 		
